@@ -253,7 +253,7 @@ androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
 |------------|---------------------|-------------------|
 | **Apps** | [`CalculatorApp/`](./CalculatorApp/) • [`UnitConverterApp/`](./UnitConverterApp/) • [`TodoApp/`](./TodoApp/) • [`QuizApp/`](./QuizApp/) • [`StopwatchApp/`](./StopwatchApp/) | Complete source code for each application |
 | **Downloads** | [`SecureSignedAPKs/`](./SecureSignedAPKs/) | Production-ready APK files for installation |
-| **Documentation** | [`README.md`](./README.md) • [`CAPACITOR_SUCCESS_REPORT.md`](./CAPACITOR_SUCCESS_REPORT.md) | Project guides and development reports |
+| **Documentation** | [`README.md`](./README.md)  | Project guides and development reports |
 
 ---
 
