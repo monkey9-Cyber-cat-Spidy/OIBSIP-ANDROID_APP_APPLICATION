@@ -1,0 +1,82 @@
+.quiz-container {
+  padding: 20px;
+}
+
+.progress-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.progress-info p {
+  margin: 0;
+  font-weight: 600;
+}
+
+.question-text {
+  font-size: 1.3em;
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.options-container {
+  margin-top: 20px;
+}
+
+.option-button {
+  margin-bottom: 12px;
+  text-align: left;
+  --border-radius: 12px;
+}
+
+.option-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.result-container {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 60vh;
+}
+
+.result-content {
+  text-align: center;
+}
+
+.trophy-icon {
+  font-size: 80px;
+  color: var(--ion-color-warning);
+  margin-bottom: 20px;
+}
+
+.score-display {
+  margin: 30px 0;
+}
+
+.score-display h2 {
+  color: var(--ion-color-primary);
+  margin: 10px 0;
+}
+
+.score-display p {
+  color: var(--ion-color-medium);
+  font-size: 1.1em;
+  margin: 5px 0;
+}
+
+.score-message h3 {
+  color: var(--ion-color-success);
+  margin: 15px 0;
+}
+
+.restart-button {
+  margin-top: 30px;
+  --border-radius: 25px;
+}

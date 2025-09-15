@@ -1,0 +1,7 @@
+{
+  "name": "CalculatorApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}

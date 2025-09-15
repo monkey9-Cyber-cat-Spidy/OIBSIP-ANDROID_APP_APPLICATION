@@ -1,0 +1,110 @@
+.stopwatch-container {
+  padding: 20px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.time-display-card {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.time-display {
+  padding: 40px 20px;
+}
+
+.time-text {
+  font-size: 3.5rem;
+  font-weight: 300;
+  color: var(--ion-color-primary);
+  margin: 0;
+  font-family: 'Courier New', monospace;
+  letter-spacing: 2px;
+}
+
+.control-button {
+  height: 60px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  --border-radius: 15px;
+  margin: 8px 0;
+}
+
+.lap-button {
+  height: 50px;
+  font-weight: 600;
+  --border-radius: 25px;
+  margin: 10px 0;
+}
+
+.laps-card {
+  margin-top: 20px;
+}
+
+.laps-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.laps-header h3 {
+  margin: 0;
+  color: var(--ion-color-primary);
+}
+
+.laps-list {
+  background: transparent;
+}
+
+.lap-item {
+  --background: rgba(var(--ion-color-primary-rgb), 0.05);
+  --border-radius: 10px;
+  margin-bottom: 8px;
+}
+
+.lap-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.lap-number {
+  font-weight: 600;
+  color: var(--ion-color-primary);
+}
+
+.lap-times {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.lap-time {
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: var(--ion-color-success);
+  font-family: 'Courier New', monospace;
+}
+
+.total-time {
+  font-size: 0.9rem;
+  color: var(--ion-color-medium);
+  font-family: 'Courier New', monospace;
+}
+
+@media (max-width: 768px) {
+  .time-text {
+    font-size: 2.8rem;
+  }
+  
+  .control-button {
+    height: 50px;
+    font-size: 1rem;
+  }
+  
+  .lap-button {
+    height: 45px;
+  }
+}

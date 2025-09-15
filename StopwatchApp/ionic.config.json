@@ -1,0 +1,7 @@
+{
+  "name": "StopwatchApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
